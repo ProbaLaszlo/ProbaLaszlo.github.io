@@ -254,8 +254,8 @@ body {
 }
 
 .input_overlay {
-    width: 35px;
-    height: 35px;
+    width: 34px;
+    height: 34px;
     background-color: #3da5fa;
     position: absolute;
     right: 14.4px;
