@@ -241,7 +241,7 @@ body {
 /*todo=============== Jelszo megjelenítés / eltüntetés ===============*/
 
 .input_hideEye_icon {
-    font-size: 17px;
+    font-size: 22px;
     z-index: 1;
 }
 
@@ -254,8 +254,8 @@ body {
 }
 
 .input_overlay {
-    width: 29px;
-    height: 29px;
+    width: 35px;
+    height: 35px;
     background-color: #3da5fa;
     position: absolute;
     right: 14.4px;

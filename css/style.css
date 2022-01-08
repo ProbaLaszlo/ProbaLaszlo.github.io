@@ -122,13 +122,9 @@ body {
     /* border: green solid 2px;*/
 }
 
-.elso_szekcio_RocketPlaner {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 .elso_szekcio_udvozles {
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 .elso_szekcio_gombok>.btn_bejelentkezes,
