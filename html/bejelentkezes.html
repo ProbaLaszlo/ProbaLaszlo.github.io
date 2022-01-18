@@ -29,7 +29,7 @@
     <main id="main">
         <!--todo======================================== Bejelentkezés ==========================================-->
         <div class="container">
-            <form action="POST" class="form" id="bejelentkezesForm">
+            <form method="POST" class="form" id="bejelentkezesForm">
 
                 <h1 class="form_title">Bejelentkezés</h1>
                 <div class="form_uzenet form_uzenet-error">
@@ -84,7 +84,7 @@
             </form>
 
             <!--todo======================================== Regisztáció ===========================================-->
-            <form action="POST" class="form form_hiden" id="regisztracioForm">
+            <form method="POST" class="form form_hiden" id="regisztracioForm">
 
                 <h1 class="form_title">Regisztráció</h1>
                 <div class="form_uzenet form_uzenet-error">
@@ -93,7 +93,7 @@
 
                 <!--todo=============== felhasználónév ===============-->
                 <div class="form_input_csoport">
-                    <input type="text" id="Felhaszn_regiszt" class="form_input karekter_szam" placeholder="Felhasználónév">
+                    <input type="text" id="Felhaszn_regiszt" class="form_input karekter_szam" placeholder="Felhasználónév" required>
 
                     <div class="form_input-error-message">
                         <!--!!!!!      <==      !!!!!!-->
@@ -103,7 +103,7 @@
 
                 <!--todo=============== Email cím ===============-->
                 <div class="form_input_csoport">
-                    <input type="email" class="form_input" placeholder="Email cím">
+                    <input type="email" class="form_input" placeholder="Email cím" required>
                     <div class="form_input-error-message">
                         <!--Ez egy hibaüzenet!-->
                     </div>
@@ -112,7 +112,7 @@
                 <!--todo=============== jelszó ===============-->
                 <div class="form_input_csoport">
 
-                    <input type="password" id="Jelsz_regiszt" class="form_input karekter_szam" placeholder="Jelszó">
+                    <input type="password" id="Jelsz_regiszt" class="form_input karekter_szam" placeholder="Jelszó" required>
 
 
                     <div class="form_input-error-message">
@@ -124,7 +124,7 @@
                 <!--todo=============== jelszó ismét ===============-->
                 <div class="form_input_csoport">
 
-                    <input type="password" id="Jelsz_regiszt_ismet" class="form_input karekter_szam" placeholder="Jelszó ismét">
+                    <input type="password" id="Jelsz_regiszt_ismet" class="form_input karekter_szam" placeholder="Jelszó ismét" required>
 
                     <div class="form_input-error-message">
                         <!--!!!!!      <==      !!!!!!-->

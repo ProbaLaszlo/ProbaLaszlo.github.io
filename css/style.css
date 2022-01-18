@@ -147,6 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 17px;
 }
 
 #btnBejelentkezes:hover {
@@ -167,6 +168,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 17px;
 }
 
 #btnRegisztacio:hover {
@@ -231,6 +233,10 @@ body {
     padding: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+.doboz_szoveg {
+    font-size: 15px;
 }
 
 #harmadikDoboz {
@@ -306,6 +312,7 @@ body {
     justify-content: center;
     border-radius: 7px;
     font-weight: bolder;
+    font-size: 17px;
 }
 
 #harmadik_szekcioBtnRegisztacio:hover {
@@ -377,6 +384,9 @@ body {
     .dobozok {
         height: 280px;
         width: 280px;
+    }
+    .doboz_cim {
+        font-size: 20px;
     }
     #dobozOsszefogas>.dobozok {
         margin-bottom: 100px;
